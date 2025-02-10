@@ -30,12 +30,20 @@ y = x.split( )
 z = y[0]
 print(y)
 print(z)
-"""
+
 
 day_of_week = input("what day is it?")
 if day_of_week == "Friday":
     print("correct")
 else:
     print("incorrect")
+"""
+
 
 sentence = input("Type a sentence.")
+
+def count_words(sentence):
+    words = sentence.split()
+    return len(words)
+word_count = count_words(sentence)
+print(f"There are {word_count} words in the sentence.")
