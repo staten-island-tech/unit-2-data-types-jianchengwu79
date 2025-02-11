@@ -37,7 +37,7 @@ if day_of_week == "Friday":
     print("correct")
 else:
     print("incorrect")
-"""
+
 
 
 sentence = input("Type a sentence.")
@@ -47,3 +47,17 @@ def count_words(sentence):
     return len(words)
 word_count = count_words(sentence)
 print(f"There are {word_count} words in the sentence.")
+
+x = "test"
+print(f"hello {x}") """
+
+
+temp = int(input("Enter any number"))
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold')
+
+
