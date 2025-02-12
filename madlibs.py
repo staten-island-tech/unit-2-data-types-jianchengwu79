@@ -18,6 +18,6 @@ number = input("Enter any number")
 celebrity = input("Enter any celebrity's name")
 
 madlib = f"""
-On the {number} of April, {celebrity} was feeling jolly. {celebrity} decided that they wanted to {verb1} in the {place}. However, suddenly they {verb2} into {noun}. Oh no! It turns out that {noun} is actually secretly in love with {celebrity}... As a result, {celebrity} {verb3}ed {noun}. {noun} {verb4}ed in pain. That was not the end though! Suddenly, {noun2} appeared and chased after {celebrity}. {celebrity} took out a weapon and tried to {verb5}. Sadly, that was to no avail. And that is the end of the story..."""
+On the {number} of April, {celebrity} was feeling jolly. {celebrity} decided that they wanted to {verb1} in the {place}. However, suddenly they {verb2} into {noun}. Oh no! It turns out that {noun} is actually secretly in love with {celebrity}... As a result, {celebrity} {verb3}ed {noun}. {noun} {verb4}ed in pain. That was not the end though! Suddenly, {noun2} appeared and chased after {celebrity}. {celebrity} took out a weapon and tried to {verb5}. Sadly, that was to no avail. And that is the end of the story... what a {adj1} and {adj2} day! If only the {adj3} {noun} and {noun2} did not appear......."""
 
 print(madlib)
